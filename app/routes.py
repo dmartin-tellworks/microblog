@@ -4,6 +4,16 @@ from app.forms import LoginForm, RegistrationForm
 from flask_login import current_user, login_user, logout_user, login_required
 from app.models import User
 from werkzeug.urls import url_parse
+from datetime import datetime
+
+#This is will be executed right before the view function
+#Stores the last seen time of a user if they are logged in
+@app.before_request
+def before_request():
+    if current_user.is_authenticated:
+        current_user.last_seen = datetime.utcnow()
+        db.session.commit()
+
 
 @app.route('/')
 @app.route('/index')
@@ -22,6 +32,7 @@ def index():
     ]
     return render_template('index.html', title='Home', posts=posts)
 
+
 @app.route('/login', methods=['GET','POST'])
 def login():
     if current_user.is_authenticated:
@@ -39,10 +50,12 @@ def login():
         return redirect(next_page)
     return render_template('login.html', title='Sign In', form=form)
 
+
 @app.route('/logout')
 def logout():
     logout_user()
     return redirect(url_for('index'))
+
 
 @app.route('/register', methods=['GET', 'POST'])
 def register():
@@ -57,6 +70,7 @@ def register():
         flash('Congratulations, you are now a registered user!')
         return redirect(url_for('login'))
     return render_template('register.html', title='Register', form=form)
+
 
 @app.route('/user/<username>')
 @login_required
