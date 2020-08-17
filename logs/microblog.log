@@ -38,3 +38,4 @@ jinja2.exceptions.UndefinedError: 'app.models.User object' has no attribute 'fol
 2020-08-17 14:36:04,979 INFO: Microblog startup [in C:\Users\David Martin\Desktop\microblog\microblog\app\__init__.py:43]
 2020-08-17 14:37:37,780 INFO: Microblog startup [in C:\Users\David Martin\Desktop\microblog\microblog\app\__init__.py:43]
 2020-08-17 14:40:06,915 INFO: Microblog startup [in C:\Users\David Martin\Desktop\microblog\microblog\app\__init__.py:43]
+2020-08-17 15:11:06,717 INFO: Microblog startup [in C:\Users\David Martin\Desktop\microblog\microblog\app\__init__.py:43]
