@@ -1,13 +1,4 @@
-2020-08-17 11:11:55,013 INFO: Microblog startup [in C:\Users\David Martin\Desktop\microblog\microblog\app\__init__.py:43]
-2020-08-17 11:12:34,075 INFO: Microblog startup [in C:\Users\David Martin\Desktop\microblog\microblog\app\__init__.py:43]
-2020-08-17 11:19:53,114 INFO: Microblog startup [in C:\Users\David Martin\Desktop\microblog\microblog\app\__init__.py:43]
-2020-08-17 12:37:39,460 INFO: Microblog startup [in C:\Users\David Martin\Desktop\microblog\microblog\app\__init__.py:43]
-2020-08-17 12:54:12,150 INFO: Microblog startup [in C:\Users\David Martin\Desktop\microblog\microblog\app\__init__.py:43]
-2020-08-17 12:54:27,951 INFO: Microblog startup [in C:\Users\David Martin\Desktop\microblog\microblog\app\__init__.py:43]
-2020-08-17 12:54:37,970 INFO: Microblog startup [in C:\Users\David Martin\Desktop\microblog\microblog\app\__init__.py:43]
-2020-08-17 13:41:02,742 INFO: Microblog startup [in C:\Users\David Martin\Desktop\microblog\microblog\app\__init__.py:43]
-2020-08-17 14:08:45,172 INFO: Microblog startup [in C:\Users\David Martin\Desktop\microblog\microblog\app\__init__.py:43]
-2020-08-17 14:08:51,268 ERROR: Exception on /user/steve [GET] [in c:\users\david martin\appdata\local\programs\python\python37\lib\site-packages\flask\app.py:1892]
+2020-08-17 14:34:33,521 ERROR: Exception on /user/steve [GET] [in c:\users\david martin\appdata\local\programs\python\python37\lib\site-packages\flask\app.py:1892]
 Traceback (most recent call last):
   File "c:\users\david martin\appdata\local\programs\python\python37\lib\site-packages\flask\app.py", line 2447, in wsgi_app
     response = self.full_dispatch_request()
@@ -44,4 +35,6 @@ Traceback (most recent call last):
   File "c:\users\david martin\appdata\local\programs\python\python37\lib\site-packages\jinja2\environment.py", line 471, in getattr
     return getattr(obj, attribute)
 jinja2.exceptions.UndefinedError: 'app.models.User object' has no attribute 'follower'
-2020-08-17 14:14:07,801 INFO: Microblog startup [in C:\Users\David Martin\Desktop\microblog\microblog\app\__init__.py:43]
+2020-08-17 14:36:04,979 INFO: Microblog startup [in C:\Users\David Martin\Desktop\microblog\microblog\app\__init__.py:43]
+2020-08-17 14:37:37,780 INFO: Microblog startup [in C:\Users\David Martin\Desktop\microblog\microblog\app\__init__.py:43]
+2020-08-17 14:40:06,915 INFO: Microblog startup [in C:\Users\David Martin\Desktop\microblog\microblog\app\__init__.py:43]
