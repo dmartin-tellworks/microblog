@@ -64,3 +64,6 @@ Traceback (most recent call last):
     page, app.config['POSTS PER PAGE'], False)
 KeyError: 'POSTS PER PAGE'
 2020-08-17 16:23:18,357 INFO: Microblog startup [in C:\Users\David Martin\Desktop\microblog\microblog\app\__init__.py:43]
+2020-08-18 08:19:12,263 INFO: Microblog startup [in C:\Users\David Martin\Desktop\microblog\microblog\app\__init__.py:45]
+2020-08-18 08:56:52,785 INFO: Microblog startup [in C:\Users\David Martin\Desktop\microblog\microblog\app\__init__.py:45]
+2020-08-18 08:57:36,897 INFO: Microblog startup [in C:\Users\David Martin\Desktop\microblog\microblog\app\__init__.py:45]
